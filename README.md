@@ -9,13 +9,13 @@
 * Create a new key for your service account and download credentials.json
 * copy credentials.json to the project root
 * Create a spreadsheet - https://sheets.new or use an existing one
-* Your service account has an email address (client_email in credentials.json), add it as an editor to the Sheets document you would like to use
+* Your service account has an email address (client_email in credentials.json), add it as an editor (using the share button) to the Sheets document you would like to use
 * Manually write some data to the spreadsheet for reading function (you don't have to)
 * copy the spreadsheet id from the sheets doc URL. For example, in the following URL: https://docs.google.com/spreadsheets/d/1anqSIemhu6dI_ixa8BdvpM1AOevviZH9LMoRzB6Xz14/edit#gid=0, the document id is 1anqSIemhu6dI_ixa8BdvpM1AOevviZH9LMoRzB6Xz14
 * In the gitpod environment terminal: export SPREADSHEET_ID=yourspreadsheetid (replace yourspreadsheetid with the actual document id)
-* Manually edit these variables in Program.cs as needed: SheetName, NewData
-* dotnet run - will log existing data to the console and append the new data
-* Check your console for read data and the spreadsheet for new cells written from this script
+* Manually edit the following variables in Program.cs as needed: SheetName, NewData
+* Use the Gitpod terminal window and run the command 'dotnet run' - It will log existing data to the console and append the new data
+* Check the terminal for read data and the spreadsheet for new cells written from this script
 * Modify the script as you wish
 
 ## About The Gitpod Development environment
