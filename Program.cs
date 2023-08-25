@@ -18,7 +18,7 @@ class Program
     //replace with your sheet name
     static readonly string SheetName = "Sheet1";
     //change data inside the object to your own strings
-    static readonly List<object> NewData = new List<object> { "Another", "Update", "Go!" };
+    static readonly List<object> NewData = new List<object> { "My", "Update", "Hello!" };
 
     static async Task Main(string[] args)
     {
