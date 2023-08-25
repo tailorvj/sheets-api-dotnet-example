@@ -25,7 +25,7 @@ This is a [.NET Core CLI](https://docs.microsoft.com/en-us/dotnet/core/introduct
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/gitpod-io/template-dotnet-core-cli-csharp)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/tailorvj/sheets-api-dotnet-example)
 
 ## Get Started With Your Own Project
 
